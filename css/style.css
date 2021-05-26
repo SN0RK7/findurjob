@@ -1,8 +1,14 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     font-family: "Fira Sans", sans-serif;
     font-size: 16px;
     color: #111238;
+}
+.header{
+    background: #F2F3F6;
 }
 .menu{
     list-style: none;
@@ -19,6 +25,8 @@ body{
 .button{
     text-decoration: none;
     display: inline-block;
+    border:none;
+    font-size: 16px;
 }
 .button-link{
     color:#111238;
@@ -34,7 +42,91 @@ body{
     padding-left: 30px;
     color:white;
 }
+.button-icon{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.button-text{
+    vertical-align: middle;
+}
 .menu-link:hover{
     color:#1A75E8;
     transition: 0.3s;
+}
+.hero-title{
+    font-size: 44px;
+    line-height: 53px;
+    margin-bottom: 15px;
+    margin-top: 43px;
+}
+.hero-text{
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 30px;
+
+}
+.input-group{
+    background-color: white;
+    background: #FFFFFF;
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.input{
+    background-color: white;
+    border:none;
+    flex-grow: 1;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 15px;
+}
+.input:focus{
+    outline: none;
+}
+.tags-group{
+    padding-left: 15px;
+    color:#B2B2B2;
+    font-size: 14px;
+    line-height: 14px;
+}
+.tag{
+    color:#B2B2B2;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+}
+.section-title{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.icon{
+    fill: #111238;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.cadr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #111238;
+    background: #F2F3F6;
+    border-radius: 10px;
+    padding: 35px;
+    transition: 0.3s,color 0.3s;
+}
+.cadr:hover .icon {
+    fill: white;
+}
+.cadr:hover{
+    background: #1A75E8;
+    color: white;
 }
