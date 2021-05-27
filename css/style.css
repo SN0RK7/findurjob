@@ -130,3 +130,98 @@ body{
     background: #1A75E8;
     color: white;
 }
+.offer{
+    border: 1px solid #c5c9d5;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.offer-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #f2f3f6;
+    background: #fff url("../img/logo-comp.png") no-repeat center / contain;
+}
+.offer-title{
+    margin-left: 20px;
+}
+.offer-heading{
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.offer-place{
+    font-size: 14px;
+    line-height: 17px;
+}
+.salary{
+    margin-left: 46px;
+    margin-right: 62px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color:white;
+    background: #1A75E8;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.more{
+    color: #1A75E8;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 25px;
+}
+.subcribe{
+    background: #F2F3F6;
+}
+.subcribe-form{
+    max-width: 460px;
+    margin: auto;
+    text-align: center;
+
+}
+.subs-title{
+    font-size: 36px;
+    line-height: 43px;
+    color: #111238;
+    margin-bottom: 20px;
+}
+.subs-text{
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+.footer{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.footer-text, .footer-copy{
+    font-size: 12px;
+    line-height: 140%;
+    color:#B2B2B2;
+}
+.footer-title{
+    color:#111238;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+.footer-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer-list-link{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 19px;
+    text-decoration: none;
+    color:#111238;
+}
