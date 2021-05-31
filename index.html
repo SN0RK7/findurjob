@@ -9,13 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/magic.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
     <header class="header pb-5">
         <div class="container">
-            <div class="d-flex pt-4 d-lg-none align-items-center justify-content-between">
+            <div class="d-flex pt-4 d-lg-none align-items-center justify-content-between ">
                  <a href="#" class="logo-link">
-                    <img src="img/logo.svg" alt="">
+                    <img src="img/logo.svg " alt="">
                 </a>
                     <a href="#" class="menu-btn">
                         <img src="img/menu-burger.svg" alt="">
@@ -23,7 +28,7 @@
             </div>
             <div class="row align-items-center py-3 navbar flex-column flex-lg-row justify-content-center ">
                 <a href="#" class="close d-lg-none">&times;</a>
-                <div class="col-6 col-lg-2 mb-5 mb-lg-0 d-flex">
+                <div class="col-6 col-lg-2 mb-5 mb-lg-0 d-flex animate__animated animate__backInLeft">
                     <a href="#" class="logo-link mx-auto mx-lg-auto">
                         <img src="img/logo.svg" alt="">
                     </a>
@@ -31,22 +36,22 @@
                 <!-- /.col -->
                 <div class="col-lg d-flex justify-content-center mb-5 mb-lg-0 ">
                     <nav class="nav ">
-                        <ul class="menu d-flex flex-column flex-lg-row align-items-center">
-                            <li class="menu-item"><a href="#" class="menu-link">Главная</a></li>
+                        <ul class="menu d-flex flex-column flex-lg-row align-items-center animate__animated animate__backInDown">
+                            <li class="menu-item "><a href="#" class="menu-link">Главная</a></li>
                             <li class="menu-item"><a href="#" class="menu-link">Вакансии</a></li>
                             <li class="menu-item"><a href="#" class="menu-link">Компании</a></li>
                         </ul>
                     </nav>
                 </div>
                 <!-- /.col -->
-                <div class="col-3 d-flex align-items-center justify-content-lg-end justify-content-center flex-column flex-lg-row  ">
+                <div class="col-3 d-flex align-items-center justify-content-lg-end justify-content-center flex-column flex-lg-row  animate__animated  animate__backInRight">
                     <a href="" class="button button-link">Войти</a>
                     <a href="" class="button button-primare">Регистрация</a>
                 </div>
                 <!-- /.col -->
             </div>
             <!-- /.row -->
-            <div class="row pt-5 hero">
+            <div class="row pt-5 hero animate__animated puffIn">
                 <div class="col-xxl-5 col-lg-7 col-md-9">
                     <h1 class="hero-title">Найдите удаленную работу вашей мечты</h1>
                     <p class="hero-text">Создайте резюме или отправьте отклик на вакансию в&nbsp; компании с мировым именем и работайте <br>по свободному графику</p>
@@ -76,7 +81,7 @@
         <!-- /.container -->
     </header>
     <section class="section">
-        <div class="container">
+        <div class="container animate__animated swap">
             <h2 class="section-title">Категории</h2>
             <div class="row">
                 <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
@@ -134,7 +139,7 @@
     </section>
     <section class="sections offer">
         <div class="container">
-            <h2 class="section-title">Свежие вакансии</h2>
+            <h2 class="section-title  animate__animated ">Свежие вакансии</h2>
             <div class="offer d-flex align-items-center flex-column flex-lg-row">
                 <div class="offer-img mb-4 mb-lg-0"></div>
                 <div class="offer-title mb-4 mb-lg-0">
@@ -226,7 +231,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0 col-7 mx-auto">
-                    <img src="img/logo.svg" alt="Логотип" class="footer-logo">
+                    <img src="img/logo.svg " alt="Логотип" class="footer-logo">
                     <p class="footer-text">Сайт с вакансиями для тех,<br> кто ищет удаленную работу</p>
                     <span class="footer-copy">© 2021</span>
                 </div>
@@ -263,5 +268,6 @@
         <!-- /.container -->
     </div>
     <script src="js/main.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
 </body>
 </html>
